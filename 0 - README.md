@@ -49,7 +49,7 @@
 
 ## 프로젝트 구조
 
-<
+```
    korean-skill-dictionary/
    ├── src/
    │   ├── data_preprocessing/
@@ -89,4 +89,4 @@
    ├── .gitignore
    └── README.md
 
-   >
+   ```
