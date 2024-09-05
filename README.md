@@ -48,7 +48,9 @@
 - 사용자 피드백을 반영한 지속적인 숙련 사전 업데이트 메커니즘 개발
 
 ## 프로젝트 구조
--    korean-skill-dictionary/
+
+<
+   korean-skill-dictionary/
    ├── src/
    │   ├── data_preprocessing/
    │   │   ├── __init__.py
@@ -86,3 +88,5 @@
    ├── setup.py
    ├── .gitignore
    └── README.md
+
+   >
