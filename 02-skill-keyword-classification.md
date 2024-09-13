@@ -9,4 +9,4 @@
     4. 학력 사항 : 1,948 건
     5. 식별 불가 : 16,695 건
 
-![[Pasted image 20240907212103.png]]
+![Pasted image 20240907212103](https://github.com/user-attachments/assets/75f9c5ed-0c40-40e8-9f1c-1b379d1d9491)
