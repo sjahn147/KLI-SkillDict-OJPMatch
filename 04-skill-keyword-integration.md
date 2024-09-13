@@ -68,4 +68,4 @@ aggregated_df = df_sample.groupby('skill_code').agg({
 ```
 
 
-![[Pasted image 20240907212315.png]]
+![Pasted image 20240907212315](https://github.com/user-attachments/assets/2046ecd0-1048-4983-bc43-60fcc99452b1)
