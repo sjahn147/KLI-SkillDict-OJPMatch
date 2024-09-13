@@ -81,7 +81,7 @@ r'(?i)\b(절단|cutting|커팅|재단|자르기|절삭|재료\s?절단|금속\s?
 
 ```
 
-![[Pasted image 20240907212451.png]]
+![Pasted image 20240907212451](https://github.com/user-attachments/assets/7a05650e-316d-4cb8-8529-09fa978d23bd)
 
 ![[Pasted image 20240907213415.png]]
 
@@ -99,7 +99,7 @@ r'(?i)\b(절단|cutting|커팅|재단|자르기|절삭|재료\s?절단|금속\s?
 - 전처리하지 않은 구인 공고를 갖고 숙련을 찾을 경우 '면접', '채용' 등의 HR 관련 숙련들이 대거 매칭됨.
 - 단, 구인 공고 데이터가 10,000~200,000 건 정도로 청크 자체가 크기 때문에 미리 전처리를 하지 않고 숙련 매칭 로직에 행 단위 전처리를 메서드로 포함시킴.
 
-![[Pasted image 20240907213436.png]]
+![Pasted image 20240907213436](https://github.com/user-attachments/assets/45b3d7e5-16e8-44d1-8c0c-61b8eaf4331e)
 
 ## 매칭 로직
 
@@ -206,4 +206,4 @@ def process_job_files(job_files, combined_skill_dict):
         logging.info(f"Final results saved to {final_output_path}")
 ```
 
-![[Pasted image 20240907213720.png]]
+![Pasted image 20240907213720](https://github.com/user-attachments/assets/83c4f2a0-130c-4cf1-b652-27a6ee04df80)
