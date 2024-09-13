@@ -181,17 +181,17 @@ logging.basicConfig(level=logging.INFO,
    logging.info(f"Loaded {len(skill_dict)} skills")
    ```
 4. subprocess 로깅
-```python
-def run_worker(args):
-    year, folder_path = args
-    try:
-        files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('.xlsx')]
-        for file_path in files:
-            subprocess.run([python_executable, worker_script, file_path], check=True)
-        logging.info(f"Completed processing folder {folder_path}")
-    except subprocess.CalledProcessError as e:
-        logging.error(f"Error processing folder {folder_path}: {str(e)}")
-```
+    ```python
+    def run_worker(args):
+        year, folder_path = args
+        try:
+            files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('.xlsx')]
+            for file_path in files:
+                subprocess.run([python_executable, worker_script, file_path], check=True)
+            logging.info(f"Completed processing folder {folder_path}")
+        except subprocess.CalledProcessError as e:
+            logging.error(f"Error processing folder {folder_path}: {str(e)}")
+    ```
 
 ### 예외 처리
 
