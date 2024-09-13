@@ -43,8 +43,7 @@
 - 사용자 피드백을 반영한 지속적인 숙련 사전 업데이트 메커니즘 개발
 
 ## 프로젝트 구조
-
-![photo_2024-09-13_15-33-42](https://github.com/user-attachments/assets/0de3721f-f226-4113-b7a0-baa704c8db6e)
-![Pasted image 20240907213902](https://github.com/user-attachments/assets/c3db8244-3691-4f0e-a06f-8322c3e5c4f1)
-![Pasted image 20240907213914](https://github.com/user-attachments/assets/09f3c51a-c0f5-494e-9d0d-a95b6f76a481)
-![Pasted image 20240907213926](https://github.com/user-attachments/assets/52025d1a-e8a4-47a3-ae7d-72435ecb4c67)
+<img src="https://github.com/user-attachments/assets/0de3721f-f226-4113-b7a0-baa704c8db6e" width="100%" alt="프로젝트 구조 1">
+<img src="https://github.com/user-attachments/assets/c3db8244-3691-4f0e-a06f-8322c3e5c4f1" width="100%" alt="프로젝트 구조 2">
+<img src="https://github.com/user-attachments/assets/09f3c51a-c0f5-494e-9d0d-a95b6f76a481" width="100%" alt="프로젝트 구조 3">
+<img src="https://github.com/user-attachments/assets/52025d1a-e8a4-47a3-ae7d-72435ecb4c67" width="100%" alt="프로젝트 구조 4">
