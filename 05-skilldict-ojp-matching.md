@@ -83,7 +83,7 @@ r'(?i)\b(절단|cutting|커팅|재단|자르기|절삭|재료\s?절단|금속\s?
 
 ![Pasted image 20240907212451](https://github.com/user-attachments/assets/7a05650e-316d-4cb8-8529-09fa978d23bd)
 
-![[Pasted image 20240907213415.png]]
+![Pasted image 20240907213415](https://github.com/user-attachments/assets/805dae94-71a5-4d3e-998a-eb226c81fd86)
 
 - 정규식 패턴 검색
   - 정규식 패턴과 일치하는 모든 숙련 코드를 불러옴. pandas와 re 라이브러리로 처리. (API 필요 없음)
