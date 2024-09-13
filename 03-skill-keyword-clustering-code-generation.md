@@ -5,7 +5,7 @@
   - 군집 분석을 위해서는 단어를 숫자화(digitize)해서 거리를 계산해야함.
   - 그러나 단일 단어만으로는 단어의 의미를 정확하게 확정할 수 없음. 단어의 의미는 앞뒤 문맥 속에서 생성.
   - GPT 3.5 Instruct 모델을 이용해 최초 추출한 raw skill term 33,800건에 대해 단어의 정의 생성함.
-![[Pasted image 20240907213800.png]]
+![Pasted image 20240907213800](https://github.com/user-attachments/assets/5cad0b8d-a465-49e2-9c0f-e3a0f86e2fc5)
 
 - 기계적 전처리 및 Lemmatization
   - 문장 분석을 할 때 공백이나 특수 문자는 오류를 유발할 수 있음. 정규식으로 이러한 텍스트를 제거하고, float 타입으로 인식될 수 있는 공백은 문자 타입(str)로 강제 변환하였음.
