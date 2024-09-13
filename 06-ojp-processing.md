@@ -142,11 +142,9 @@ def main():
 
 ## 6. 로깅 및 예외처리
 
-# 구인공고 스킬 추출 프로젝트: 에러 처리 및 로깅
-
 ### 로깅 및 예외 처리
 
-- 프로젝트의 안정성과 모니터링을 위해 Python의 내장 `logging` 모듈을 사용 
+- 프로젝트의 안정성과 모니터링을 위해 Python의 내장 `logging` 모듈을 사용
 - 적절한 예외 처리를 통해 프로세스의 중단을 방지하고 오류 정보를 기록함
 
 ### 로깅 설정
@@ -182,6 +180,18 @@ logging.basicConfig(level=logging.INFO,
    ```python
    logging.info(f"Loaded {len(skill_dict)} skills")
    ```
+4. subprocess 로깅
+```python
+def run_worker(args):
+    year, folder_path = args
+    try:
+        files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('.xlsx')]
+        for file_path in files:
+            subprocess.run([python_executable, worker_script, file_path], check=True)
+        logging.info(f"Completed processing folder {folder_path}")
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Error processing folder {folder_path}: {str(e)}")
+```
 
 ### 예외 처리
 
