@@ -49,7 +49,7 @@
 
 ## 프로젝트 구조
 
-![[텍스트 분석을 통한 사전 구축부터 구인공고 매칭까지(보완)_2.png]]
+![photo_2024-09-13_15-33-42](https://github.com/user-attachments/assets/0de3721f-f226-4113-b7a0-baa704c8db6e)
 ![Pasted image 20240907213902](https://github.com/user-attachments/assets/c3db8244-3691-4f0e-a06f-8322c3e5c4f1)
 ![Pasted image 20240907213914](https://github.com/user-attachments/assets/09f3c51a-c0f5-494e-9d0d-a95b6f76a481)
 ![Pasted image 20240907213926](https://github.com/user-attachments/assets/52025d1a-e8a4-47a3-ae7d-72435ecb4c67)
