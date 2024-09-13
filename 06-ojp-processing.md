@@ -1,5 +1,10 @@
 # 구인공고 스킬 추출 프로젝트 상세 코드 설명 및 성능 비교
 
+##매칭 결과 
+
+구인공고 3년치(2021,2022,2023) 약 천만 건을 대상으로 사업장정보, 직업코드, 숙련코드 매칭 완료
+![sample](https://github.com/user-attachments/assets/8cb86247-1869-404f-9400-69bf9edaf3c2)
+
 ## 성능 비교
 
 - 최적화 전: 80,000 건/시간
@@ -82,7 +87,7 @@ def match_skills(text, skill_dict, top_n=20, min_similarity=70):
     return dict(sorted(matched_skills.items(), key=lambda x: x[1], reverse=True)[:top_n])
 ```
 
-목적 : 전처리된 텍스트에서 스킬을 매칭하고 유사도를 계산합니다.
+목적 : 전처리된 텍스트에서 스킬을 매칭하고 유사도를 계산
 구현 방법 : 
 - 정규식 패턴 매칭을 통한 초기 필터링
 - 부분 문자열 유사도 계산 (rapidfuzz 라이브러리 사용)
