@@ -5,7 +5,8 @@
 구인공고 3년치(2021,2022,2023) 약 천만 건을 대상으로 사업장정보, 직업코드, 숙련코드 매칭 완료
 
 ### 최종 데이터셋 (sfile)의 구조
-![sample](https://github.com/user-attachments/assets/8cb86247-1869-404f-9400-69bf9edaf3c2)
+
+![image](https://github.com/user-attachments/assets/1e7ba922-3ffc-4f62-9700-6875a0f39a94)
 
 ### sfile 데이터셋 정보
 
