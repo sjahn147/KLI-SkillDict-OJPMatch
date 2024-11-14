@@ -7,11 +7,12 @@
   - 전체 10,000,000 건 중 200,000 건 랜덤 샘플링
   - 온라인 구인 공고로부터 수집된 업종 정보를 처리해 구인공고의 업종별 분포 확인
 
-![Pasted image 20240907211953](https://github.com/user-attachments/assets/38500ff5-01b7-442c-820f-eb8caf4f11ee)
+![image](https://github.com/user-attachments/assets/e01e8e63-9728-4880-b2a5-e37e3046b84a)
 
 ### 1.1.2. 구인공고 전처리
 
-![Pasted image 20240907212019](https://github.com/user-attachments/assets/e504a49d-47ae-4fe3-9981-cbe5896aaa54)
+![image](https://github.com/user-attachments/assets/6bc74e9e-77b2-4596-ab8e-2d0d23bcddd7)
+
   - 숙련과 무관한 내용을 미리 제거함.
   - 토큰 수 감소와 추출 품질 개선을 위해 필수적. 잘못된 추출을 방지하므로 추출 뒤 전처리의 수고를 크게 덜 수 있음.
   - 구인공고는 '직무 관련' 내용이 나오고 '근무 조건', '복리 후생', '전형 절차' 내용이 나오는 구조화된 텍스트이므로 이러한 전처리가 가능함.
@@ -93,7 +94,8 @@ def preprocess_job_desc(text):
 ## 1.3. 단어 분류
 
 ### 1.3.1. LLM 초벌 분류
-![image](https://github.com/user-attachments/assets/651349c4-5e21-4342-adaf-905afac60dea)
+![Pasted image 20241029231223](https://github.com/user-attachments/assets/5c088093-9549-441e-b36c-67af5d8637bd)
+
 - **대분류 및 하위 분류** : 단어 수준 클러스터링 진행하기 전에 사전 분류 진행
 	- 33,000개를 전체 클러스터링하는 방식으로는 숙련 식별 불가. 일정 범주 내에서 비슷한 단어를 묶어야함. 
 	- LightCast 범주표를 사전 지식으로 제공함. 범주 코딩을 완전히 Bottom-up 방식으로 하면 LLM 응답에 일관성이 없게 되어 전처리 부담 증가

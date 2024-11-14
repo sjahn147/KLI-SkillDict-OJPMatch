@@ -4,7 +4,8 @@
   - 군집 분석을 위해서는 단어를 벡터화해서 거리를 계산해야함.
   - 그러나 단일 단어만으로는 단어의 의미를 정확하게 확정할 수 없음. 단어의 의미는 앞뒤 문맥 속에서 생성.
   - GPT 4-o mini 모델을 이용해 최초 추출한 raw skill term 33,800건에 대해 단어의 정의 생성함.
-![Pasted image 20240907213800](https://github.com/user-attachments/assets/5cad0b8d-a465-49e2-9c0f-e3a0f86e2fc5)
+
+![image](https://github.com/user-attachments/assets/8da5c9df-468f-4a0c-88c7-511c6227e702)
 
 ### 2.1.2. 기계적 전처리
   - **공백 제거 및 타입 변환 :** 문장 분석을 할 때 공백이나 특수 문자는 오류를 유발할 수 있음. 정규식으로 이러한 텍스트를 제거하고, float 타입으로 인식될 수 있는 공백은 문자 타입(str)로 변환하였음.
@@ -177,7 +178,9 @@ assign_skill_codes_sequential(df_sample, model, eps=0.30, min_samples=2, checkpo
 ```
 
 ### 2.1.6. 대표 레이블 지정 (군집별 퍼지 매칭)
-  ![image](https://github.com/user-attachments/assets/4c36cab8-56e3-4b51-becc-6c0ecf5f5409)
+
+![Pasted image 20241029232250](https://github.com/user-attachments/assets/07776e18-aa95-4cc9-8f12-1a2b12bfc22f)
+
 - 앞선 단계에서 **군집분석에 의해 같은 클러스터 점수가 지정되면 반드시 '같은 단어＇로 보고 동일한 숙련 코드를 부여**하기로 하였음.
   - 동일한 숙련 코드를 부여받은 skill term들을 대표하는 하나의 단어를 고르기 위해 퍼지 매칭을 수행함. 이들은 실제 동일한지 여부와 상관없이 같은 단어로 보기로 하였으므로, **무조건 하나의 단어로 통합되도록 threshold 값을 조정**함.
   - 가능한 대표성이 높은 단어가 선택되도록, 출현 빈도가 가장 많은 단어의 전체 문자열을 representative keyword 열로 추가하였음. (정보 손실을 최소화하기 위함)
@@ -244,4 +247,7 @@ aggregated_df = df_sample.groupby('skill_code').agg({
 }).reset_index()
 ```
 
-![Pasted image 20240907212315](https://github.com/user-attachments/assets/2046ecd0-1048-4983-bc43-60fcc99452b1)
+## 2.2. 최종 숙련 사전 형태
+![image](https://github.com/user-attachments/assets/a51caf7d-7ebd-407f-90c0-c58650a0400f)
+
+
