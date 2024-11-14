@@ -102,7 +102,8 @@ r'(?i)\b(절단|cutting|커팅|재단|자르기|절삭|재료\s?절단|금속\s?
 
 ```
 
-![Pasted image 20240907212451](https://github.com/user-attachments/assets/7a05650e-316d-4cb8-8529-09fa978d23bd)
+![image](https://github.com/user-attachments/assets/7238f255-d775-49e7-8564-9e10a9ecd429)
+
 
 ### 3.3. 매칭 로직
 
@@ -118,9 +119,12 @@ r'(?i)\b(절단|cutting|커팅|재단|자르기|절삭|재료\s?절단|금속\s?
   - 이 중에서 점수가 높은 단어만 남기고, 낮은 단어들은 버림. (max =20)
   - 아주 간단한 유사도 계산이므로 처리 속도에는 큰 영향 없음. rapidfuzz를 쓰면 좀 더 빠름.
 
-![Pasted image 20240907213415](https://github.com/user-attachments/assets/805dae94-71a5-4d3e-998a-eb226c81fd86)
+![image](https://github.com/user-attachments/assets/a76dcf53-6b69-4f0f-a1fe-2f65945c64bd)
 
-![Pasted image 20240907213436](https://github.com/user-attachments/assets/45b3d7e5-16e8-44d1-8c0c-61b8eaf4331e)
+![image](https://github.com/user-attachments/assets/5385c52f-b5bc-4833-8f91-6dafbd06ebd2)
+
+
+![image](https://github.com/user-attachments/assets/f84fb13b-938b-44ad-8975-c11a27b2ab2f)
 
 
 ```python
@@ -226,4 +230,3 @@ def process_job_files(job_files, combined_skill_dict):
         logging.info(f"Final results saved to {final_output_path}")
 ```
 
-![Pasted image 20240907213720](https://github.com/user-attachments/assets/83c4f2a0-130c-4cf1-b652-27a6ee04df80)
