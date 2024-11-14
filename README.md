@@ -94,8 +94,10 @@
 약 33,000개의 초기 숙련 키워드에서 7,192개의 정제된 숙련 사전 구축
 
 #### 도메인별 주요 스킬 키워드
-![image](https://github.com/user-attachments/assets/84c9ab1b-374a-4d4e-8146-bd771125b5ac)
-![image](https://github.com/user-attachments/assets/c7a4ce7a-a613-4854-964c-6e175858ed96)
+![image](https://github.com/user-attachments/assets/1f5ce9bc-c025-4b83-a34d-88d8f5e2751b)
+
+![image](https://github.com/user-attachments/assets/6fc24885-1b26-4092-afcc-aeaf5b62bf1e)
+
 
 ### 온라인 구인공고 데이터셋 신규 구축 완료 
 
@@ -121,9 +123,10 @@
 
 #### KECO 세분류 직종(450개)의 숙련 포트폴리오 파악  
 
-![Pasted image 20241114150900](https://github.com/user-attachments/assets/6ac49ef9-e2d8-430f-abd5-67356736ebe4)
+![image](https://github.com/user-attachments/assets/b069c724-def2-435a-bc16-cde588614559)
 
-![image](https://github.com/user-attachments/assets/e186978a-4374-4079-8f48-49ce3c3897d6)
+![image](https://github.com/user-attachments/assets/9cf38cda-065f-40a3-8bee-cb2db29ff271)
+
 
 ### 데이터 활용 연구
 
@@ -135,13 +138,14 @@
 
 인공지능 숙련에 대한 수요는 꾸준히 늘고 있으며, 국내 기업의 AI 도입률은 **2021년 2.9%에서 2021년 4.0% 로 증가 중**. 
 
-   ![2021-2023 연월별 인공지능 숙련 키워드 건수](https://github.com/user-attachments/assets/631fa500-5260-40a3-854e-6adff9f189ba)
+![image](https://github.com/user-attachments/assets/5eaf883c-32bc-4e0c-9c04-3196059983a7)
+
 
 #### 기업 규모별 AI 도입 비율
 
 **AI 고용은 주로 1,000인 이상 대기업에 의해 주도**되는 경향
 
-![Pasted image 20241114150227](https://github.com/user-attachments/assets/53219a0a-507c-4df1-bf74-9875b44f1670)
+![image](https://github.com/user-attachments/assets/a66d79ae-1945-4ca8-bcd0-ff95eea7573b)
 
 #### 업종별 AI 도입 비율
    
@@ -150,7 +154,9 @@
 #### AI 도입비율과 AI 노출도의 관계
 
 **AI 도입률이 높은 기업은 AI 노출도 역시 유의하게 높음**. 기존에 관계가 뚜렷하지 않았던 AI 노출도의 AI 실제 도입률의 실제 상관관계 확인 
-![image](https://github.com/user-attachments/assets/a51d9dff-b082-4d3c-a134-037a8908012f)
+
+![image](https://github.com/user-attachments/assets/e7b78349-d87d-4f63-9ef2-fe4749b00696)
+
 ## 도전 과제 및 해결 방안
 
 1. **다양한 표현의 숙련 용어 통합**
@@ -173,15 +179,15 @@
 ## 프로젝트 구조도
 
 ### 전체 프로젝트 구조
-<img src="https://github.com/user-attachments/assets/0de3721f-f226-4113-b7a0-baa704c8db6e" width="100%" alt="프로젝트 구조 1">
+![image](https://github.com/user-attachments/assets/751cc48a-329d-409d-9438-b43a340adf6e)
+
 
 #### 1. 숙련사전 구축 프로세스
-<img src="https://github.com/user-attachments/assets/c3db8244-3691-4f0e-a06f-8322c3e5c4f1" width="80%" alt="프로젝트 구조 2">
+![image](https://github.com/user-attachments/assets/c2cfee62-8dfb-4214-83b1-ccee9d38b334)
 
 #### 2. 숙련코드 매칭 프로세스
 
-<img src="https://github.com/user-attachments/assets/52025d1a-e8a4-47a3-ae7d-72435ecb4c67" width="80%" alt="프로젝트 구조 4">
-
+![image](https://github.com/user-attachments/assets/fbd6abcd-43fd-4dea-9736-861f96309784)
 
 ## 주요 기능 및 구현 방법
 
