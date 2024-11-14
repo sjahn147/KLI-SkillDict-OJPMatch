@@ -247,4 +247,7 @@ aggregated_df = df_sample.groupby('skill_code').agg({
 }).reset_index()
 ```
 
-![Pasted image 20240907212315](https://github.com/user-attachments/assets/2046ecd0-1048-4983-bc43-60fcc99452b1)
+## 2.2. 최종 숙련 사전 형태
+![image](https://github.com/user-attachments/assets/a51caf7d-7ebd-407f-90c0-c58650a0400f)
+
+
